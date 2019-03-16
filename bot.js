@@ -9,11 +9,6 @@ client.on('message', message => {
     if (message.content === 'pig') {
     	message.reply('pog');
   	}
-    
-    client.on('message', message => {
-    if (message.content === 'pag') {
-    	message.reply('peg');
-  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
