@@ -14,7 +14,10 @@ client.on('message', message => {
     {
     	message.channel.send('ЗАБАНЕН!');
   	}
-    
+    if (message.content === '@БОЛТУН#6109') 
+    {
+    	message.channel.send('Ты сильно ничтожен что-бы обращаться ко мне!!!');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
