@@ -30,7 +30,22 @@ client.on('message', message => {
     {
     	message.channel.send('По ебалу стук!!!');
   	} 
+    if (message.content === 'Время') 
+    {
+    	message.channel.send('Петушкам время не надо');
+  	}
+    if (message.content === 'Привет') 
+    {
+    	message.channel.send('Привет от всего коллектива');
+  	}
+    if (message.content === 'пока') 
+    {
+    	message.channel.send('Увидемся)');
+  	}
+    if (message.content === 'очко') 
+    {
+    	message.channel.send('Ты трансгендер!!!)');
+  	}
 });
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
