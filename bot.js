@@ -36,13 +36,13 @@ client.on('message', message => {
   	}
     if (message.content === 'Привет') 
     {
-    	message.channel.send('Привет от всего коллектива');
+    	message.channel.send('Тебе привет от всего коллектива)');
   	}
     if (message.content === 'пока') 
     {
     	message.channel.send('Увидемся)');
   	}
-    if (message.content === 'очко') 
+    if (message.content === 'трансгендер') 
     {
     	message.channel.send('Ты трансгендер!!!)');
   	}
