@@ -10,7 +10,7 @@ client.on('message', message => {
     {
     	message.reply('pog');
   	}
-    if (message.content === 'бан') 
+    if (message.content === '#бан') 
     {
     	message.channel.send('ЗАБАНЕН!');
   	}
