@@ -18,6 +18,10 @@ client.on('message', message => {
     {
     	message.channel.send('Ты сильно ничтожен что-бы обращаться ко мне!!!');
   	}
+    if (message.content === '@БОЛТУН') 
+    {
+    	message.channel.send('Ты сильно ничтожен что-бы обращаться ко мне!!!');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
