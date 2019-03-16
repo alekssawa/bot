@@ -10,7 +10,6 @@ client.on('message', message => {
     {
     	message.reply('pog');
   	}
-    {
     if (message.content === 'pag') 
     {
     	message.reply('peg');
