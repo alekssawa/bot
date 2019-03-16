@@ -22,6 +22,14 @@ client.on('message', message => {
     {
     	message.channel.send('Ты сильно ничтожен что-бы обращаться ко мне!!!');
   	}
+    if (message.content === 'Бот') 
+    {
+    	message.channel.send('Ты сильно ничтожен что-бы обращаться ко мне!!!');
+  	}
+   if (message.content === 'Тук') 
+    {
+    	message.channel.send('По ебалу стук!!!');
+  	} 
 });
 
 // THIS  MUST  BE  THIS  WAY
