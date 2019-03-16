@@ -10,9 +10,9 @@ client.on('message', message => {
     {
     	message.reply('pog');
   	}
-    if (message.content === 'pag') 
+    if (message.content === 'бан') 
     {
-    	message.reply('peg');
+    	message.reply('ЗАБАНЕН!(');
   	}
     
 });
