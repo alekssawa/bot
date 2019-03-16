@@ -8,6 +8,8 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'pig') {
     	message.reply('pog');
+    if (message.content === 'ban') {
+    	message.reply('забанен!');
   	}
 });
 
