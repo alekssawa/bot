@@ -12,7 +12,7 @@ client.on('message', message => {
   	}
     if (message.content === 'бан') 
     {
-    	message.reply('ЗАБАНЕН!(');
+    	message.channel.send('ЗАБАНЕН!');
   	}
     
 });
