@@ -38,7 +38,7 @@ client.on('message', message => {
     {
     	message.channel.send('Тебе привет от всего коллектива)');
   	}
-    if (message.content === 'пока') 
+    if (message.content === 'Пока') 
     {
     	message.channel.send('Увидемся)');
   	}
