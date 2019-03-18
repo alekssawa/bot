@@ -42,9 +42,13 @@ client.on('message', message => {
     {
     	message.channel.send('Увидемся)');
   	}
-    if (message.content === 'трансгендер') 
+    if (message.content === 'Трансгендер') 
     {
     	message.channel.send('Ты трансгендер!!!)');
+  	}
+    if (message.content === 'Иди нахуй') 
+    {
+    	message.channel.send('Сейчас ты пойдешь туда!!!)');
   	}
 });
 // THIS  MUST  BE  THIS  WAY
