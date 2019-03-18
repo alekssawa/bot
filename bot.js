@@ -61,7 +61,7 @@ client.on('message', message => {
     if (message.content === 'соси') 
     {
     	message.channel.send('Сам соси!!!)');
-    
+    }
     if (message.content === 'Соси') 
     {
     	message.channel.send('Сам СОСИ!!!)');
