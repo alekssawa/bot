@@ -50,21 +50,41 @@ client.on('message', message => {
     {
     	message.channel.send('Сейчас ты пойдешь туда!!!)');
   	}
-        if (message.content === '#мут') 
+    if (message.content === '#мут') 
     {
     	message.channel.send('ТЫ ЗАМУЧЕН!');
   	}
-        if (message.content === 'иди нахуй') 
+    if (message.content === 'иди нахуй') 
     {
     	message.channel.send('Сейчас ты пойдешь туда!!!)');
     }
-            if (message.content === 'соси') 
+    if (message.content === 'соси') 
     {
     	message.channel.send('Сам соси!!!)');
-    }
-            if (message.content === 'Соси') 
+    
+    if (message.content === 'Соси') 
     {
     	message.channel.send('Сам СОСИ!!!)');
+    }
+    if (message.content === 'Здрасте') 
+    {
+    	message.channel.send('Хай)');
+    }
+    if (message.content === 'Саня') 
+    {
+    	message.channel.send('Александр в данный момент занят!!!)');
+    }
+    if (message.content === 'Саша') 
+    {
+    	message.channel.send('Александр в данный момент занят!!!)');
+    }
+    if (message.content === 'саня') 
+    {
+    	message.channel.send('Александр в данный момент занят!!!)');
+    }
+    if (message.content === 'саша') 
+    {
+    	message.channel.send('Александр в данный момент занят!!!)');
     }
 });
 // THIS  MUST  BE  THIS  WAY
