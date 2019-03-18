@@ -57,6 +57,7 @@ client.on('message', message => {
         if (message.content === 'иди нахуй') 
     {
     	message.channel.send('Сейчас ты пойдешь туда!!!)');
+    }
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
