@@ -12,7 +12,7 @@ client.on('message', message => {
   	}
     if (message.content === '#бан') 
     {
-    	message.channel.send('ЗАБАНЕН!');
+    	message.channel.send('ТЫ ЗАБАНЕН!');
   	}
     if (message.content === '@БОЛТУН#6109') 
     {
@@ -49,6 +49,10 @@ client.on('message', message => {
     if (message.content === 'Иди нахуй') 
     {
     	message.channel.send('Сейчас ты пойдешь туда!!!)');
+  	}
+        if (message.content === '#мут') 
+    {
+    	message.channel.send('ТЫ ЗАМУЧЕН!');
   	}
 });
 // THIS  MUST  BE  THIS  WAY
