@@ -8,11 +8,6 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'pig') {
     	message.reply('pog');}
-     {
-      if (message.content === 'pig') 
-      {
-    	message.reply('pog');
-  	  }
 });
 
 // THIS  MUST  BE  THIS  WAY
