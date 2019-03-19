@@ -5,9 +5,8 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    if (message.content === 'pig') {
-    	message.reply('pog');}
+client.on('message', message => 
+        {if (message.content === 'pig') {message.reply('pog');}
 });
 
 // THIS  MUST  BE  THIS  WAY
