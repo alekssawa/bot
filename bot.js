@@ -86,6 +86,18 @@ client.on('message', message => {
     {
     	message.channel.send('Александр в данный момент занят!!!)');
     }
+    if (message.content === 'Ты уебан') 
+    {
+    	message.channel.send('Крути барабан!)');
+    }
+    if (message.content === 'Садись') 
+    {
+    	message.channel.send('Бан!)');
+    }
+    if (message.content === 'Кто виноват') 
+    {
+    	message.channel.send('Навальный!!)');
+    }
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
