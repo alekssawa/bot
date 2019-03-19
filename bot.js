@@ -5,7 +5,12 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
+client.on('message', message =>
+    if (message.content === '#help') 
+    {
+    	message.channel.send("-Кто виноват" + "\n" + "-Садись" + "\n" + "-Привет" + "\n" + "-Пока" + "\n" + "-Ты уебан" + "\n" + "-саша" + "\n" + "-саня" + "\n" + "-Саша" + "\n" + "-Саня" + "\n" + "-Здрасте" + "\n" + "-соси" + "\n" + "-Соси" + "\n" + "-Иди нахуй" + "\n" + "-Тук" + "\n" + "-Время" + "\n" + "-Трансгендер" + "\n" + "-Бот" + "\n" + "-#бан" + "\n" + "-#мут");
+    }
+    {
     if (message.content === 'pig') 
     {
     	message.reply('pog');
@@ -97,10 +102,6 @@ client.on('message', message => {
     if (message.content === 'Кто виноват') 
     {
     	message.channel.send('Навальный!!)');
-    }
-    if (message.content === '#help') 
-    {
-    	message.channel.send('-Кто виноват -Садись -Привет -Пока -Ты уебан -саша -саня -Саша -Саня -Здрасте -соси -Соси -Иди нахуй -Тук -Время -Трансгендер -Бот -#бан -#мут');
     }
     if (message.content === '#hel') 
     {
