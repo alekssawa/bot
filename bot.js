@@ -104,7 +104,7 @@ client.on('message', message => {
     }
     if (message.content === '#hel') 
     {
-    	message.channel.send(" 1  2  3  4  5  6  7  8  9" + "\n" + "----------------------------");
+    	message.channel.send(" 1  2  3  4  5  6  7  8  9" + "\n" + "----------------------------" + "\n" + "w");
     }
 });
 // THIS  MUST  BE  THIS  WAY
