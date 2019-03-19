@@ -100,8 +100,8 @@ client.on('message', message => {
     }
     if (message.content === '#help') 
     {
-    	message.channel.send('-Кто виноват -Садись -Привет -Пока -Ты уебан -саша -саня -Сашс -Саня');
-    } -З
+    	message.channel.send('-Кто виноват -Садись -Привет -Пока -Ты уебан -саша -саня -Саша -Саня -Здрасте -соси -Соси -Иди нахуй -Тук -Время -Трансгендер');
+    }
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
