@@ -5,8 +5,8 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => 
-        {if (message.content === 'pig') {message.channel.send('pog');}
+client.on('message', message => {
+    if (message.content === 'pig') {message.channel.send('pog');}
                      if (message.content === 'pog') {message.channel.send('peg');}
 });
 
