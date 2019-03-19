@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => 
-        {if (message.content === 'pig') {message.reply('pog');}
+        {if (message.content === 'pig') {message.reply('pog');
              {if (message.content === 'pog') {message.reply('peg');}
 });
 
