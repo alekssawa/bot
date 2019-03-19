@@ -98,6 +98,10 @@ client.on('message', message => {
     {
     	message.channel.send('Навальный!!)');
     }
+    if (message.content === '#help') 
+    {
+    	message.channel.send('-Кто виноват -Садись');
+    }
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
