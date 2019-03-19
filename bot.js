@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => 
         {if (message.content === 'pig') {message.channel.send('pog');}
-         {if (message.content === 'pig') {message.channel.send('pog');}
+         {if (message.content === 'pog') {message.channel.send('pog');}
 });
 
 // THIS  MUST  BE  THIS  WAY
