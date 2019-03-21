@@ -30,6 +30,7 @@ client.on('message', message => {
     if (message.content === 'Ты уебан') {message.channel.send('Крути барабан!)');}
     if (message.content === 'Садись') {message.channel.send('Бан!)');}
     if (message.content === 'Кто виноват') {message.channel.send('Навальный!!)');}
+    if (message.content === '#music') {message.channel.send('-play https://www.youtube.com/playlist?list=PLSdfU8nTff5TkhpGvJaACJVpcgYzjNec_');}
 });
 
 // THIS  MUST  BE  THIS  WAY
