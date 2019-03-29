@@ -31,6 +31,7 @@ client.on('message', message => {
     if (message.content === 'Садись') {message.channel.send('Бан!)');}
     if (message.content === 'Кто виноват') {message.channel.send('Навальный!!)');}
     if (message.content === 'music') {message.channel.send("-play https://www.youtube.com/playlist?list=PLSdfU8nTff5TkhpGvJaACJVpcgYzjNec_" + "\n" + "!!!load 4cce102d-3ce9-48d6-b298-21cb460f9c98 -- ТРЕШ!!:astonished:");}
+    if (message.content === 'mem') {message.channel.send("https://drive.google.com/drive/folders/1u53rcXnMHh0UZ_is_5afnSU3rGQf6D62?usp=sharing");}
 });
 
 // THIS  MUST  BE  THIS  WAY
