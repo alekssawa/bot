@@ -29,6 +29,7 @@ client.on('message', message => {
     if (message.content === 'саша') {message.channel.send('Александр в данный момент занят!!!)');}
     if (message.content === 'Ты уебан') {message.channel.send('Крути барабан!)');}
     if (message.content === 'Садись') {message.channel.send('Бан!)');}
+    if (message.content === 'Норм') {message.channel.send('Подрочил!!');}
     if (message.content === 'Спать') {message.channel.send("Всем спать Суки!!" + "\n" + "Спать блять!!");}
     if (message.content === 'Кто виноват') {message.channel.send('Навальный!!)');}
     if (message.content === 'music') {message.channel.send("-play https://www.youtube.com/playlist?list=PLSdfU8nTff5TkhpGvJaACJVpcgYzjNec_" + "\n" + "!!!load 4cce102d-3ce9-48d6-b298-21cb460f9c98 -- ТРЕШ!!:astonished:");}
