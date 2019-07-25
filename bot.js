@@ -9,7 +9,7 @@ client.on('message', message => {
     if (message.content === 'pig') {message.channel.send('pog');}
     if (message.content === '#help') {message.channel.send("***Пиши это в ЧаТ)***"
                                                            + "\n" + "***==================***"
-                                                           "***(1) Кто виноват***"
+                                                           + "\n" + "***(1) Кто виноват***"
                                                            + "\n" + "***------------------***"
                                                            + "\n" + "***(2) Норм***"
                                                            + "\n" + "***------------------***"
