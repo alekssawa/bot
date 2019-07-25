@@ -7,7 +7,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'pig') {message.channel.send('pog');}
-    if (message.content === '#help') {message.channel.send("***(1) Кто виноват***"
+    if (message.content === '#help') {message.channel.send("***Пиши это в ЧаТ)***"
+                                                           + "\n" + "***                  ***"
+                                                           "***(1) Кто виноват***"
                                                            + "\n" + "***------------------***"
                                                            + "\n" + "***(2) Норм***"
                                                            + "\n" + "***------------------***"
@@ -53,7 +55,8 @@ client.on('message', message => {
                                                            + "\n" + "***------------------***"
                                                            + "\n" + "***(23) #бан***"
                                                            + "\n" + "***------------------***"
-                                                           + "\n" + "***(24) #мут***");}
+                                                           + "\n" + "***(24) #мут***"
+														   + "\n" + "***------------------***");}
     if (message.content === '#бан') {message.channel.send('ТЫ ЗАБАНЕН!');}
     if (message.content === '@БОЛТУН#6109') {message.channel.send('Ты сильно ничтожен что-бы обращаться ко мне!!!');}
     if (message.content === '@БОЛТУН') {message.channel.send('Ты сильно ничтожен что-бы обращаться ко мне!!!');}
