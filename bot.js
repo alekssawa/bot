@@ -9,9 +9,6 @@ bot.on('voiceStateUpdate', (oldMember, newMember) => {
   if(oldUserChannel === undefined && newUserChannel !== undefined) {
 
     channel.join()
-    .then(connection => {;
-      const dispatcher = connection.play('mp3 file');
-      dispatcher.on("end", end => {
           // ...  
       });
   });
