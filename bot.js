@@ -9,6 +9,7 @@ bot.on('voiceStateUpdate', (oldMember, newMember) => {
   if(oldUserChannel === undefined && newUserChannel !== undefined) {
 
     channel.join()
+    message.channel.send('Ты сильно ничтожен что-бы обращаться ко мне!!!')
           // ...  
       });
   });
