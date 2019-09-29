@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('message', message => {
+ client.on('message', message => {
     if (message.content === 'pig') {message.channel.send('pog');}
     if (message.content === '#help') {message.channel.send("***Пиши это в ЧаТ)***"
                                                            + "\n" + "***==================***"
