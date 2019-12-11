@@ -63,7 +63,7 @@ client.on('message', message => {
     if (message.content === '@БОЛТУН') {message.channel.send('Ты сильно ничтожен что-бы обращаться ко мне!!!');}
     if (message.content === 'Бот') {message.channel.send('Ты сильно ничтожен что-бы обращаться ко мне!!!');}
     if (message.content === 'Тук') {message.channel.send('По ебалу стук!!!');} 
-    if (message.content === 'Время') {message.channel.send('Время ебаться!');}
+    if (message.content === 'Время') {message.channel.send('Время Ебатся!');}
     if (message.content === 'Привет') {message.channel.send('Тебе привет от всего коллектива)');}
     if (message.content === 'Пока') {message.channel.send('Увидемся)');}
     if (message.content === 'Трансгендер') {message.channel.send('Ты трансгендер!!!)');}
