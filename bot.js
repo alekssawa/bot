@@ -68,6 +68,14 @@ client.on('message', message => {
     if (message.content === 'Пока') {message.channel.send('Увидемся)');}
     if (message.content === 'Трансгендер') {message.channel.send('Ты трансгендер!!!)');}
     if (message.content === 'Иди нахуй') {message.channel.send('Сейчас ты пойдешь туда!!!)');}
+    if (message.content === 'Саня петух') {message.channel.send('Ты че ахуел??!!,бан?)');}
+    if (message.content === 'Саня питух') {message.channel.send('Ух сука!!,бан?)');}
+    if (message.content === 'саня петух') {message.channel.send('В ебучку дать??!!)');}
+    if (message.content === 'саня питух') {message.channel.send('Нихуя себе заявление??!!,бан дать?)');}
+    if (message.content === 'Петух') {message.channel.send('Ебало на ноль!!)');}
+    if (message.content === 'петух') {message.channel.send('Ебало подели ноль!!)');}
+    if (message.content === 'Питух') {message.channel.send('Ротик прикрой!!)');}
+    if (message.content === 'питух') {message.channel.send('Ха-ха-Ха,бан?)');}
     if (message.content === '#мут') {message.channel.send('ТЫ ЗАМУЧЕН!');}
     if (message.content === 'иди нахуй') {message.channel.send('Сейчас ты пойдешь туда!!!)');}
     if (message.content === 'соси') {message.channel.send('Сам соси!!!)');}
