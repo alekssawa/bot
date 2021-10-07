@@ -16,6 +16,10 @@ client.on("message", function(message) {
     const timeTaken = Date.now() - message.createdTimestamp;
     message.reply(`Pong! Это сообщение имеет задержку ${timeTaken}ms.`);
  }
+ if (command === "clear")
+ {
+    message.channel.bulkDelete
+ }
 	
 	
 
