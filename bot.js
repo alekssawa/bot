@@ -16,7 +16,7 @@ bot.on('ready', () => {
     message.reply(`Pong! Это сообщение имеет задержку ${timeTaken}ms.`);
  }
 	
-  console.log('ClearMessagesBot is Ready!');
+  /*console.log('ClearMessagesBot is Ready!');
   bot.on('message', message => {
     if (message.content == CLEAR_MESSAGES) {
 
@@ -46,7 +46,7 @@ bot.on('ready', () => {
           });
       }
     }
-  });
+  });*/
 });
 
 
