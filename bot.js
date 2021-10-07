@@ -18,7 +18,7 @@ client.on("message", function(message) {
  }
  if (command === "clear")
  {
-    message.channel.bulkDelete
+    message.channel.bulkDelete;
  }
 	
 	
