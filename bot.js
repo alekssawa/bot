@@ -5,6 +5,13 @@ const prefix = "^";
 const CLEAR_MESSAGES = '!clearMessages';
 	
 bot.on('ready', () => {
+	
+ if (command === "ping")
+ {
+    const timeTaken = Date.now() - message.createdTimestamp;
+    message.reply(`Pong! Это сообщение имеет задержку ${timeTaken}ms.`);
+ }
+	
   console.log('ClearMessagesBot is Ready!');
   bot.on('message', message => {
     if (message.content == CLEAR_MESSAGES) {
