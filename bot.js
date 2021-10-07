@@ -17,6 +17,16 @@ client.on("message", function(message) {
     message.reply(`Pong! Это сообщение имеет задержку ${timeTaken}ms.`);
  }
 	
+client.on("message", msg => {
+    if (msg.content.toLowerCase().startsWith(prefix + "clearchat")) {
+        async function clear() {
+            msg.delete();
+            const fetched = await msg.channel.fetchMessages({limit: 99});
+            msg.channel.bulkDelete(fetched);
+        }
+        clear();
+    }
+	
 
 });
 
