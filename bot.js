@@ -5,6 +5,10 @@ const prefix = "^";
 const CLEAR_MESSAGES = '^clearMessages';
 	
 bot.on('ready', () => {
+
+  const commandBody = message.content.slice(prefix.length);
+  const args = commandBody.split(' ');
+  const command = args.shift().toLowerCase();
 	
  if (command === "ping")
  {
@@ -16,9 +20,6 @@ bot.on('ready', () => {
   bot.on('message', message => {
     if (message.content == CLEAR_MESSAGES) {
 
-      // Check the following permissions before deleting messages:
-      //    1. Check if the user has enough permissions
-      //    2. Check if I have the permission to execute the command
 
       if (!message.channel.permissionsFor(message.author).hasPermission("MANAGE_MESSAGES")) {
         message.channel.sendMessage("Sorry, you don't have the permission to execute the command \""+message.content+"\"");
@@ -30,15 +31,12 @@ bot.on('ready', () => {
         return;
       }
 
-      // Only delete messages if the channel type is TextChannel
-      // DO NOT delete messages in DM Channel or Group DM Channel
       if (message.channel.type == 'text') {
         message.channel.fetchMessages()
           .then(messages => {
             message.channel.bulkDelete(messages);
             messagesDeleted = messages.array().length; // number of messages deleted
 
-            // Logging the number of messages deleted on both the channel and console.
             message.channel.sendMessage("Deletion of messages successful. Total messages deleted: "+messagesDeleted);
             console.log('Deletion of messages successful. Total messages deleted: '+messagesDeleted)
           })
