@@ -30,6 +30,7 @@ async function delete_messages() { // Объявление асинхронно�
 if (command === "clear")
  {
 	 delete_messages();
+	 message.reply(`Удаленно`);
  }
 	
 	
