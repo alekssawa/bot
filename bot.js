@@ -17,8 +17,22 @@ if (command === "ping")
     message.reply(`Pong! Это сообщение имеет задержку ${timeTaken}ms.`);
  }
 
-    
-});
+ const amount = 99;
+async function delete_messages() { // Объявление асинхронной функции
 
+    await mess.channel.messages.fetch({
+        limit: amount
+    }).then(messages => {
+        mess.channel.bulkDelete(messages)
+        mess.channel.send(`Удалено ${amount} сообщений!`)
+    })
+};
+if (command === "clear")
+ {
+	 delete_messages();
+ }
+	
+	
+});
 
 client.login(process.env.BOT_TOKEN);
